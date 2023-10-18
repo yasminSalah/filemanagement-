@@ -1,0 +1,17 @@
+# Use a base image with OpenJDK 11
+FROM adoptopenjdk:11-jre-hotspot
+
+# Set the working directory in the container
+C:/postgres_container_data/app
+
+# Copy the JAR file into the container
+COPY spring-boot-cache-example-0.0.1-SNAPSHOT.jar /app/demo.jar
+
+# Expose the port that the app runs on
+EXPOSE 8088
+
+# Define the command to run the application
+CMD ["java", "-jar", "demo.jar"]
+
+
+

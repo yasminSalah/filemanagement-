@@ -1,0 +1,16 @@
+com\javatpoint\controller\CustomerController.class
+com\javatpoint\repository\ItemRepository.class
+com\javatpoint\SpringBootCacheExampleApplication.class
+com\javatpoint\service\DownloadFileService.class
+com\javatpoint\controller\FilesController.class
+com\javatpoint\model\Permissions.class
+com\javatpoint\service\ItemServiceImpl.class
+com\javatpoint\repository\FilesRepository.class
+com\javatpoint\controller\ItemController.class
+com\javatpoint\model\Customer.class
+com\javatpoint\model\Item.class
+com\javatpoint\model\Files.class
+com\javatpoint\repository\PermissionGroupRepository.class
+com\javatpoint\repository\PermissionsRepository.class
+com\javatpoint\model\PermissionGroup.class
+com\javatpoint\service\ItemService.class
